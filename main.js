@@ -70,6 +70,8 @@ function generateBotResponse(userInput) {
       botResponse = "I'm just a bot, but I'm here to help!";
     } else if (userInput.toLowerCase().includes("donkey")) {
       botResponse = "you are donkey and folish";
+    } else if (userInput.toLowerCase().includes("you are donkey")) {
+      botResponse = `yes i am donkey but my dad is ${name1} `;
     } else if (userInput.toLowerCase().includes("bad")) {
       botResponse = "you are not good you are folish";
     } else if (userInput.toLowerCase().includes("i dont love you")) {
